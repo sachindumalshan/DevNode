@@ -10,9 +10,10 @@ body{
 
 a.detail_link{
     text-decoration: none;
+    color: white;
 }
 
-a.detail_link:hover{
+h6.footer-link-text:hover{
     text-decoration: none;
-    color: rgb(26, 26, 248);
+    color:white;
 }
