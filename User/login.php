@@ -47,11 +47,11 @@
     </nav>
 
     <!-- Login -->
-    <section id="login-box" class="my-5">
+    <section id="login-box">
       <div class="container">
         <div class="row align-items-center">
             <div class="col-4 mx-auto">
-                <div class="card" style="margin-top: 15%; background-color: #082b8f; border-radius: 10px;">
+                <div class="card" style="margin-top: 35%; background-color: #082b8f; border-radius: 10px;">
                     <div class="card-body d-flex flex-column">
                         <form>
                           <div class="text-center">
@@ -73,15 +73,15 @@
                             <hr class="my-3 text-white">
                           </div>
                           <div class="form-group mt-4 mb-4">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                            <input type="email" class="form-control" id="LoginInputEmail" placeholder="Email">
                           </div>
                           <div class="form-group mb-4">
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            <input type="password" class="form-control" id="LoginInputPassword" placeholder="Password">
                           </div>
                           <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label text-white" for="exampleCheck1">Remember me</label>
-                            <span style="float: right;"><a href="#forgot password" class="text-white">Forgot your password?</a></span>
+                            <input type="checkbox" class="form-check-input" id="LoginCheck">
+                            <label class="form-check-label text-white">Remember me</label>
+                            <span style="float: right;"><a href="#" class="text-white">Forgot your password?</a></span>
                           </div>
                           <div class="text-center">
                             <button type="submit" class="btn btn-primary mt-3 mb-3 w-100" style="font-weight:bold;">SIGN In</button>
@@ -95,7 +95,7 @@
     </section>
 
     <!-- Footer -->
-    <div>
+    <div class="fixed-bottom">
       <!-- Middle footer -->
       <section id="detail-section" class="pt-4 text-white" style="background-color: #082b8f;">
           <div class="container">

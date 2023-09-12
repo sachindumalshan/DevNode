@@ -46,8 +46,8 @@
         </div>
     </nav>
 
-    <!-- Login -->
-    <section id="login-box" class="my-5">
+    <!-- Register -->
+    <section id="register-box" class="my-5">
       <div class="container">
         <div class="row align-items-center">
             <div class="col-4 mx-auto">
@@ -73,16 +73,16 @@
                             <hr class="my-3 text-white">
                           </div>
                           <div class="form-group mt-4 mb-4">
-                            <input type="text" class="form-control" id="InputUsername" placeholder="Username">
+                            <input type="text" class="form-control" id="RegisterInputUsername" placeholder="Username">
                           </div>
                           <div class="form-group mt-4 mb-4">
-                            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Email">
+                            <input type="email" class="form-control" id="RegisterInputEmail" aria-describedby="emailHelp" placeholder="Email">
                           </div>
                           <div class="form-group mb-4">
-                            <input type="password" class="form-control" id="InputPassword1" placeholder="Password">
+                            <input type="password" class="form-control" id="RegisterInputPassword1" placeholder="Password">
                           </div>
                           <div class="form-group mb-4">
-                            <input type="password" class="form-control" id="InputPassword2" placeholder="Confirm Password">
+                            <input type="password" class="form-control" id="RegisterInputPassword2" placeholder="Confirm Password">
                           </div>
 
                           <div class="text-center">
