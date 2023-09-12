@@ -4,8 +4,8 @@ body{
 
 .nav-link{
     font-weight: 500;
-    font-size: 1.1rem;
-    padding-left:5%;
+    font-size: 1.0rem;
+    padding-right: 10%;
 }
 
 a.detail_link{
