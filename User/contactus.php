@@ -56,7 +56,32 @@
           <div class="col-md-1 mb-md-0 mb-5"></div>
           <div class="col-md-6 mb-md-0 mb-5">
               <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
+                  <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group mt-4 mb-4">
+                          <input type="text" class="form-control" id="contactName" placeholder="Name">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group mt-4 mb-4">
+                          <input type="email" class="form-control" id="contactEmail" placeholder="Email">
+                        </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group mb-4">
+                          <input type="text" class="form-control" id="contactSubject" placeholder="Subject">
+                        </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group mb-4">
+                          <textarea type="text" id="message" name="message" rows="5" class="form-control md-textarea" placeholder="Message"></textarea>
+                        </div>
+                      </div>
+                  </div>
               </form>
               <div class="text-center text-md-left mt-1">
                   <a class="btn btn-primary w-100" onclick="document.getElementById('contact-form').submit();">SEND</a>
@@ -65,7 +90,20 @@
           </div>
           <div class="col-md-1 mb-md-0 mb-5"></div>
           <div class="col-md-3 text-center mt-4">
-
+              <ul class="list-unstyled mb-0">
+                  <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                      <p>DevNode (PVT) LTD,<br/>
+                        No.201, Pahala Bomiriya,<br/>
+                        Kaduwela.<br/>
+                        10640</p>
+                  </li>
+                  <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                      <p>+94 76 616 6355</p>
+                  </li>
+                  <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                      <p>sachindu.info@gmail.com</p>
+                  </li>
+              </ul>
           </div>
           <div class="col-md-1 mb-md-0 mb-5"></div>
         </div>
