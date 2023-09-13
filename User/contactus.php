@@ -46,7 +46,72 @@
         </div>
     </nav>
 
-    
+    <!-- Contact Us -->
+    <section class="mb-4" style="margin-top:5%">
+      <div class="container">
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Us</h2>
+        <p class="text-center w-responsive mx-auto mb-4">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
+        <hr style="height:2px"/>
+        <div class="row">
+          <div class="col-md-1 mb-md-0 mb-5"></div>
+          <div class="col-md-6 mb-md-0 mb-5">
+              <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              </form>
+              <div class="text-center text-md-left mt-1">
+                  <a class="btn btn-primary w-100" onclick="document.getElementById('contact-form').submit();">SEND</a>
+              </div>
+              <div class="status"></div>
+          </div>
+          <div class="col-md-1 mb-md-0 mb-5"></div>
+          <div class="col-md-3 text-center mt-4">
+
+          </div>
+          <div class="col-md-1 mb-md-0 mb-5"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="fixed-bottom">
+      <!-- Middle footer -->
+      <section id="detail-section" class="pt-4 text-white" style="background-color: #082b8f;">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-3 footer-link">
+                      <h5>Quick Links</h5>
+                        <a class="detail_link" href="aboutus.html" ><h6 class="footer-link-text">About Us</h6></a>
+                        <a class="detail_link" href="contactus.html" ><h6 class="footer-link-text">Contact Us</h6></a>
+                        <a class="detail_link" href="faq.html" ><h6 class="footer-link-text">FAQ</h6><br></a>
+                        <a class="detail_link" href="term.html" ><h6 class="footer-link-text">Terms and Conditions</h6></a>
+                  </div>
+
+                  <hr class="ml-3 d-block d-sm-none" style="width: 75%; background-color: white;" >
+
+                  <div class="col-md-3 ">
+                      <div>
+                          <i class="fas fa-map-marker-alt"></i> Location :
+                          <h6 class="mt-2">DevNode (PVT) LTD,<br> No.201, Pahala Bomiriya,<br>Kaduwela.<br>10640</h6>
+                      </div>
+                      <div class="mt-4">
+                          <i class="fas fa-phone-square-alt"></i> Telephone :
+                          <h6 class="mt-2">Work &ensp;&nbsp;: +94 71 760 9016<br>Mobile : +94 76 616 6355</h6>
+                      </div>
+                  </div>
+                  <hr class="ml-3 d-block d-sm-none" style="width: 75%; background-color: white;" >
+
+                  <div class="col-md-6 ">
+                       <h3>NEWSLETTER</h3>
+                       <p class="my-4 text-justify">Stay in the loop with our newsletter! Get the latest updates, articles, and insights from our blog delivered right to your inbox. Join our community of readers and never miss out on valuable content again. Subscribe now and be part of our blog's journey!</p>
+                      <div class="input-group mb-4 col-md-9 pl-0">
+                          <input type="text" class="form-control" placeholder="Your Email Address"/>
+                          <button class="btn btn-primary" type="button">Subscribe</button>
+                      </div>
+                  </div>
+                  <hr class="ml-3 d-block d-sm-none" style="width: 75%; background-color: white;">
+                  <hr class="d-none d-md-block mt-2" style="color: whitesmoke; height: 3px;">
+              </div>
+          </div>
+      </section>
 
       <!-- Footer -->
       <footer id="main-footer" class="py-1 text-white" style="background-color: #082b8f;">
