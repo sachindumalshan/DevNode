@@ -21,7 +21,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color:#082b8f">
         <div class="container">
-            <a href="index.html" class="navbar-brand">
+            <a href="index.php" class="navbar-brand">
                 <img src="img/devnode.png" class="me-2" height="40" alt="DevNode" loading="lazy"/>
             </a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -30,16 +30,16 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link active" >Blog</a>
+                        <a href="index.php" class="nav-link active" >Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a href="aboutus.html" class="nav-link">About Us</a>
+                        <a href="aboutus.php" class="nav-link">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contactus.html" class="nav-link">Contact Us</a>
+                        <a href="contactus.php" class="nav-link">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="profile.html" class="nav-link"><i class="fas fas fa-user-circle"></i> Profile</a>
+                        <a href="profile.php" class="nav-link"><i class="fas fas fa-user-circle"></i> Profile</a>
                     </li>
                 </ul>
             </div>
