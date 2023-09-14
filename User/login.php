@@ -84,7 +84,7 @@
                             <span style="float: right;"><a href="#" class="text-white">Forgot your password?</a></span>
                           </div>
                           <div class="text-center">
-                            <button type="submit" class="btn btn-primary mt-3 mb-3 w-100" style="font-weight:bold;">SIGN In</button>
+                            <button type="submit" class="btn btn-primary mt-3 mb-3 w-100" style="font-weight:bold;">SIGN IN</button>
                           </div>
                         </form>
                     </div>
