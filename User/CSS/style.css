@@ -17,3 +17,7 @@ h6.footer-link-text:hover{
     text-decoration: none;
     color:white;
 }
+
+active a{
+color: red !important;
+}

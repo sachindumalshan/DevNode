@@ -46,11 +46,31 @@
         </div>
     </nav>
 
+    <br><br><br>
+
     <section id ="profile-page">
       <div class = "container">
         <div class = "row">
-          <div class = "col-4">Menu</div>
-          <div class = "col-8">Content</div>
+          <div class = "col-3">
+            <div class="vh-50 list-group">
+              <a href="" class="btn-lg list-group-item list-group-item-action border-0 active" aria-current="true" >
+                <i class="fas fa-tachometer-alt pr-2"></i> Dashboard
+              </a>
+              <a href="" class="btn-lg list-group-item list-group-item-action border-0">
+                <i class="fas fa-tasks pr-2"></i> Progress</a>
+              </a>
+              <a href="" class="btn-lg list-group-item list-group-item-action border-0">
+                <i class="fas fa-book pr-2"></i> My Post</a>
+              </a>
+              <a href="" class="btn-lg list-group-item list-group-item-action border-0">
+                <i class="far fa-question-circle pr-2"></i> Help</a>
+              </a>
+              <a href="" class="btn-lg list-group-item list-group-item-action border-0">
+                <i class="fas fa-cog"></i> Settings</a>
+              </a>
+            </div>
+          </div>
+          <div class = "col-9">Content</div>
         </div>
       </div>
     </section>
