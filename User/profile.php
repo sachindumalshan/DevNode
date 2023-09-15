@@ -70,12 +70,68 @@
               </a>
             </div>
           </div>
-          <div class = "col-9">Content</div>
+          <div class = "col-9">
+            <div class="card bg-light mb-3">
+              <div class="p-3 py-3">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                      <h4 class="text-right">Profile Settings</h4>
+                  </div>
+                  <div class="row mt-2">
+                      <div class="col-md-6">
+                          <label class="labels">First Name</label>
+                          <input type="text" class="form-control" value="">
+                      </div>
+                      <div class="col-md-6">
+                          <label class="labels">Last Name</label>
+                          <input type="text" class="form-control" >
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12 mt-2">
+                          <label class="labels">User Name</label>
+                          <input type="text" class="form-control" value="">
+                      </div>
+                      <div class="col-md-12 mt-2">
+                          <label class="labels">Email</label>
+                          <input type="text" class="form-control" >
+                      </div>
+                      <div class="col-md-12 mt-2">
+                          <label class="labels">University/School</label>
+                          <input type="text" class="form-control" >
+                      </div>
+
+                      <div class="col-md-12 mt-2">
+                          <label class="labels">Mobile Number</label>
+                          <input type="text" class="form-control" >
+                      </div>
+                      <div class="col-md-12 mt-2">
+                          <label class="labels">Address</label>
+                          <input type="text" class="form-control" >
+                      </div>
+                  </div>
+
+                  <div class="row mt-3">
+                      <div class="col-md-6">
+                          <label class="labels">Country</label>
+                          <input type="text" class="form-control" >
+                      </div>
+                      <div class="col-md-6">
+                          <label class="labels">State/Region</label>
+                          <input type="text" class="form-control" >
+                      </div>
+                  </div>
+
+                  <div class="mt-4 ">
+                      <button class="btn profile-button text-white" type="button" style="background-color:#082b8f;">Save Profile</button>
+                  </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <div class="fixed-bottom">
+    <div>
       <!-- Middle footer -->
       <section id="detail-section" class="pt-4 text-white" style="background-color: #082b8f;">
           <div class="container">
