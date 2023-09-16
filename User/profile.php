@@ -53,13 +53,13 @@
         <div class = "row">
           <div class = "col-3">
             <div class="vh-50 list-group">
-              <a href="" class="btn-lg list-group-item list-group-item-action border-0 active" aria-current="true" >
+              <a href="profile.php" class="btn-lg list-group-item list-group-item-action border-0 active" aria-current="true" >
                 <i class="fas fa-tachometer-alt pr-2"></i> Dashboard
               </a>
               <a href="" class="btn-lg list-group-item list-group-item-action border-0">
                 <i class="fas fa-tasks pr-2"></i> Progress</a>
               </a>
-              <a href="" class="btn-lg list-group-item list-group-item-action border-0">
+              <a href="mypost.php" class="btn-lg list-group-item list-group-item-action border-0">
                 <i class="fas fa-book pr-2"></i> My Post</a>
               </a>
               <a href="" class="btn-lg list-group-item list-group-item-action border-0">
