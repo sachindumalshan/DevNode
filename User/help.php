@@ -62,7 +62,7 @@
               <a href="mypost.php" class="btn-lg list-group-item list-group-item-action border-0">
                 <i class="fas fa-book pr-2"></i> My Post</a>
               </a>
-              <a href="" class="btn-lg list-group-item list-group-item-action border-0 active" aria-current="true">
+              <a href="help.php" class="btn-lg list-group-item list-group-item-action border-0 active" aria-current="true">
                 <i class="far fa-question-circle pr-2"></i> Help</a>
               </a>
               <a href="" class="btn-lg list-group-item list-group-item-action border-0">
