@@ -59,7 +59,7 @@
               <a href="" class="btn-lg list-group-item list-group-item-action border-0">
                 <i class="fas fa-tasks pr-2"></i> Progress</a>
               </a>
-              <a href="mypost.php" class="btn-lg list-group-item list-group-item-action border-0 active" aria-current="true" >
+              <a href="mypost.php" class="btn-lg list-group-item list-group-item-action border-0 active" aria-current="true">
                 <i class="fas fa-book pr-2"></i> My Post</a>
               </a>
               <a href="help.php" class="btn-lg list-group-item list-group-item-action border-0">
@@ -71,8 +71,9 @@
             </div>
           </div>
 
-          <div class="col-md-9" id="dprogress">
-            <div class="card bg-light">
+          <div class="col-md-9" id="dprofile">
+            <div class="card bg-light mb-3">
+
               <div class="card-header mb-4">
                   <h4 class="text-center ">My Posts</h4>
               </div>
@@ -114,12 +115,14 @@
                   </div>
                 </div>
             </div>
+
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <div class="fixed-bottom">
+    <div>
       <!-- Middle footer -->
       <section id="detail-section" class="pt-4 text-white" style="background-color: #082b8f;">
           <div class="container">
@@ -180,6 +183,20 @@
     <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+    </script>
+
+    <script>
+      .collapse {
+        &:not(.show) {
+          display: none;
+        }
+        }
+
+        .collapsing {
+        height: 0;
+        overflow: hidden;
+        @include transition($transition-collapse);
+        }
     </script>
 
   </body>
