@@ -56,7 +56,7 @@
               <a href="profile.php" class="btn-lg list-group-item list-group-item-action border-0 active" aria-current="true" >
                 <i class="fas fa-tachometer-alt pr-2"></i> Dashboard
               </a>
-              <a href="" class="btn-lg list-group-item list-group-item-action border-0">
+              <a href="progress.php" class="btn-lg list-group-item list-group-item-action border-0">
                 <i class="fas fa-tasks pr-2"></i> Progress</a>
               </a>
               <a href="mypost.php" class="btn-lg list-group-item list-group-item-action border-0">

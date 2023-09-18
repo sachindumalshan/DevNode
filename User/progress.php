@@ -53,10 +53,10 @@
         <div class = "row">
           <div class = "col-3">
             <div class="vh-50 list-group">
-              <a href="profile.php" class="btn-lg list-group-item list-group-item-action border-0 active" aria-current="true" >
+              <a href="profile.php" class="btn-lg list-group-item list-group-item-action border-0" >
                 <i class="fas fa-tachometer-alt pr-2"></i> Dashboard
               </a>
-              <a href="" class="btn-lg list-group-item list-group-item-action border-0">
+              <a href="progress.php" class="btn-lg list-group-item list-group-item-action border-0 active" aria-current="true">
                 <i class="fas fa-tasks pr-2"></i> Progress</a>
               </a>
               <a href="mypost.php" class="btn-lg list-group-item list-group-item-action border-0">
@@ -72,49 +72,51 @@
           </div>
           <div class = "col-9">
             <div class="card bg-light mb-3">
-              <div class="card-header fw-semi-bold fs-4 text-center">Post Summary</div>
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">ID</th>
-                    <th scope="col">Title</th>
-                    <th scope="col">Clicks</th>
-                    <th scope="col">Views</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">01</th>
-                    <td>IoT Solutions</td>
-                    <td>57</td>
-                    <td>89</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">02</th>
-                    <td>Network Security</td>
-                    <td>20</td>
-                    <td>67</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">03</th>
-                    <td>Java Programing</td>
-                    <td>105</td>
-                    <td>170</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">02</th>
-                    <td>Network Security</td>
-                    <td>20</td>
-                    <td>67</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">03</th>
-                    <td>Java Programing</td>
-                    <td>105</td>
-                    <td>170</td>
-                  </tr>
-                </tbody>
-              </table>
+              <div class="p-3 py-3">
+                <div class="card-header fw-semi-bold fs-4 text-center">Post Summary</div>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">ID</th>
+                      <th scope="col">Title</th>
+                      <th scope="col">Clicks</th>
+                      <th scope="col">Views</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">01</th>
+                      <td>IoT Solutions</td>
+                      <td>57</td>
+                      <td>89</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">02</th>
+                      <td>Network Security</td>
+                      <td>20</td>
+                      <td>67</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">03</th>
+                      <td>Java Programing</td>
+                      <td>105</td>
+                      <td>170</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">02</th>
+                      <td>Network Security</td>
+                      <td>20</td>
+                      <td>67</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">03</th>
+                      <td>Java Programing</td>
+                      <td>105</td>
+                      <td>170</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
