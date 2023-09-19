@@ -53,7 +53,7 @@
         <div class = "row">
           <div class = "col-3">
             <div class="vh-50 list-group">
-              <a href="profile.php" class="btn-lg list-group-item list-group-item-action border-0 active" aria-current="true" >
+              <a href="profile.php" class="btn-lg list-group-item list-group-item-action border-0" >
                 <i class="fas fa-tachometer-alt pr-2"></i> Dashboard
               </a>
               <a href="progress.php" class="btn-lg list-group-item list-group-item-action border-0">
@@ -65,7 +65,7 @@
               <a href="help.php" class="btn-lg list-group-item list-group-item-action border-0">
                 <i class="far fa-question-circle pr-2"></i> Help</a>
               </a>
-              <a href="settings.php" class="btn-lg list-group-item list-group-item-action border-0">
+              <a href="settings.php" class="btn-lg list-group-item list-group-item-action border-0 active" aria-current="true">
                 <i class="fas fa-cog"></i> Settings</a>
               </a>
             </div>
