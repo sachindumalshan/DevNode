@@ -30,10 +30,10 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="index.php" class="nav-link active" >Blog</a>
+                        <a href="index.php" class="nav-link" >Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a href="aboutus.php" class="nav-link">About Us</a>
+                        <a href="aboutus.php" class="nav-link active">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a href="contactus.php" class="nav-link">Contact Us</a>
