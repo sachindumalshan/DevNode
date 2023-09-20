@@ -46,7 +46,18 @@
         </div>
     </nav>
 
-    <br><br><br>
+    <section id = "header-bar" style="margin-top:3%">
+        <div class="bg-image" style="background-image: url('img/technology.jpg');height: 14vh;">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.5); height: 14vh;">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="input-group" style="width:25%; height:40%">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search by Post ..." aria-label="Search" >
+                <button class="btn btn-outline-light my-2 my-sm-0 px-4" type="submit"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
 
     <div class="fixed-bottom">
       <!-- Middle footer -->
