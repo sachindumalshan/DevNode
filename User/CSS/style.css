@@ -76,7 +76,11 @@ color: red !important;
 }
 
 .card-description{
-   text-overflow: ellipsis;
-   white-space: nowrap;
-   overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 4);
+  -webkit-box-orient: vertical;
+  word-break: var(--word-break, 'none');
+  overflow: hidden;
+  hyphens: auto;
+  text-align: var(--align, justify);
 }
