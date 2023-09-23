@@ -16,7 +16,7 @@
 
     <title>DevNode</title>
   </head>
-  <body>
+  <body style="min-height:100vh;display:flex;flex-direction:column;">
 
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color:#082b8f">
@@ -46,7 +46,7 @@
         </div>
     </nav>
 
-    <section id = "header-bar" style="margin-top:3%">
+    <section id = "header-bar" style="margin-top:3%;">
         <div class="bg-image" style="background-image: url('img/technology.jpg');height: 14vh;">
           <div class="mask" style="background-color: rgba(0, 0, 0, 0.5); height: 14vh;">
             <div class="d-flex justify-content-center align-items-center h-100">
@@ -59,42 +59,164 @@
         </div>
     </section>
 
-    <section>
-      <div class="row">
-        <div class="col-4">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+    <section id="post-section" class="my-5">
+      <div class="container">
+        <div class="row mb-4">
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-img">
+                  <a href="blog-single.html"><img src="img/post-1.jpg" alt="" class="img-fluid"/></a>
+                </div>
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h6 class="category">Robotics</h6>
+                    </div>
+                  </div>
+                  <h3 class="card-title">
+                    <a href="blog-single.html" class="text-decoration-none text-dark">Robotic Technology</a>
+                  </h3>
+                  <p class="card-description">
+                    Robotic technology is the branch of engineering and science that deals with the design, development, and operation of robots.
+                    Robotics is the application of technology to automate tasks that would otherwise utomate tasks that would outomate tasks that would o
+                  </p>
+                </div>
+                <div class="card-footer text-center">
+                  <a href="" class="btn btn-md btn-warning btn-center">Read More <i class="fas fa-chevron-circle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-img">
+                  <a href="blog-single.html"
+                    ><img src="img/post-2.jpg" alt="" class="img-fluid"
+                  /></a>
+                </div>
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h6 class="category">AI</h6>
+                    </div>
+                  </div>
+                  <h3 class="card-title">
+                    <a href="blog-single.html" class="text-decoration-none text-dark">The Impact of Artificial Intelligence</a>
+                  </h3>
+                  <p class="card-description">
+                    Artificial Intelligence, commonly known as AI, is the simulation of human intelligence in machines. The field of AI research was founded on the belief that a machine can be made to think like a human...
+                  </p>
+                </div>
+                <div class="card-footer text-center">
+                  <a href="" class="btn btn-md btn-warning btn-center">Read More <i class="fas fa-chevron-circle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-img">
+                  <a href="blog-single.html"
+                    ><img src="img/post-3.jpg" alt="" class="img-fluid"
+                  /></a>
+                </div>
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h6 class="category">Robotics</h6>
+                    </div>
+                  </div>
+                  <h3 class="card-title">
+                    <a href="blog-single.html" class="text-decoration-none text-dark">Robotic Engineering Applications</a>
+                  </h3>
+                  <p class="card-description">
+                    obotic engineering is a rapidly growing field that is changing the way we live and work. It is the application of technology to automate tasks that would otherwise be performed by ...
+                  </p>
+                </div>
+                <div class="card-footer text-center">
+                  <a href="" class="btn btn-md btn-warning btn-center">Read More <i class="fas fa-chevron-circle-right"></i></a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-4">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="row mb-4">
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-img">
+                  <a href="blog-single.html"><img src="img/post-1.jpg" alt="" class="img-fluid"/></a>
+                </div>
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h6 class="category">Robotics</h6>
+                    </div>
+                  </div>
+                  <h3 class="card-title">
+                    <a href="blog-single.html" class="text-decoration-none text-dark">Robotic Technology</a>
+                  </h3>
+                  <p class="card-description">
+                    Robotic technology is the branch of engineering and science that deals with the design, development, and operation of robots.
+                    Robotics is the application of technology to automate tasks that would otherwise utomate tasks that would outomate tasks that would o
+                  </p>
+                </div>
+                <div class="card-footer text-center">
+                  <a href="" class="btn btn-md btn-warning btn-center">Read More <i class="fas fa-chevron-circle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-img">
+                  <a href="blog-single.html"
+                    ><img src="img/post-2.jpg" alt="" class="img-fluid"
+                  /></a>
+                </div>
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h6 class="category">AI</h6>
+                    </div>
+                  </div>
+                  <h3 class="card-title">
+                    <a href="blog-single.html" class="text-decoration-none text-dark">The Impact of Artificial Intelligence</a>
+                  </h3>
+                  <p class="card-description">
+                    Artificial Intelligence, commonly known as AI, is the simulation of human intelligence in machines. The field of AI research was founded on the belief that a machine can be made to think like a human...
+                  </p>
+                </div>
+                <div class="card-footer text-center">
+                  <a href="" class="btn btn-md btn-warning btn-center">Read More <i class="fas fa-chevron-circle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-img">
+                  <a href="blog-single.html"
+                    ><img src="img/post-3.jpg" alt="" class="img-fluid"
+                  /></a>
+                </div>
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h6 class="category">Robotics</h6>
+                    </div>
+                  </div>
+                  <h3 class="card-title">
+                    <a href="blog-single.html" class="text-decoration-none text-dark">Robotic Engineering Applications</a>
+                  </h3>
+                  <p class="card-description">
+                    obotic engineering is a rapidly growing field that is changing the way we live and work. It is the application of technology to automate tasks that would otherwise be performed by ...
+                  </p>
+                </div>
+                <div class="card-footer text-center">
+                  <a href="" class="btn btn-md btn-warning btn-center">Read More <i class="fas fa-chevron-circle-right"></i></a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-4">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
 
-    <div class="fixed-bottom">
+    <div>
       <!-- Middle footer -->
       <section id="detail-section" class="pt-4 text-white" style="background-color: #082b8f;">
           <div class="container">
