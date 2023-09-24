@@ -59,7 +59,7 @@
         </div>
     </section>
 
-    <section id="post-section" class="my-5">
+    <section id="post-section" class="mt-5 mb-3">
       <div class="container">
         <div class="row mb-4">
             <div class="col-md-4">
@@ -213,6 +213,24 @@
               </div>
             </div>
           </div>
+      </div>
+    </section>
+
+    <section id = "page-navigation">
+      <div class="container">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+              <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </section>
 
